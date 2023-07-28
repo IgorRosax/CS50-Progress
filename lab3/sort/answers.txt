@@ -1,0 +1,11 @@
+sort1 uses: Bubble
+
+How do you know?: Slowest execution time for random, reversed and sorted numbers.
+
+sort2 uses: Merge
+
+How do you know?: Slowest execution time for random, reversed and sorted numbers.
+
+sort3 uses: Selection
+
+How do you know?: Fast execution time for random and sorted numbers, but slow execution time fom reversed numbers.

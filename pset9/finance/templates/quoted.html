@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Symbol</th>
+        </tr>
+
+        {% if quoteResult != None %}
+            <tr>
+                <td>{{quoteResult["name"]}}</td>
+                <td>{{quoteResult["price"]}}</td>
+                <td>{{quoteResult["symbol"]}}</td>
+            </tr>
+        {% endif %}
+    </table>
+
+{% endblock %}
